@@ -1,5 +1,13 @@
 /* Home page style */
 
+.back a {
+  text-decoration: none;
+  color: #269995;
+  border: 1px solid #000;
+  background-color: #d1bbfc;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+}
 .title, .subtitle {
   text-align: center;
 }
@@ -10,11 +18,11 @@
   font-size: 22px;
   line-height: 3rem;
 }
-a {
+.link a {
   color: #000;
   text-decoration: none;
 }
-a:hover {
+.link a:hover {
   color: blue;
   text-decoration: underline;
 }
