@@ -1,6 +1,6 @@
 /* Home page style */
 
-.title, .subtitle {
+.title, .subtitle, description {
   text-align: center;
 }
 .subtitle {
@@ -8,7 +8,6 @@
 }
 .description {
   color: green;
-  text-align: center;
 }
 .link {
   font-size: 22px;
