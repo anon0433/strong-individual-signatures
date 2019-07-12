@@ -29,8 +29,9 @@ a.link {
   border: 1px solid black;
   padding: 0.5rem 1rem;
   transition: 0.5s;
+  background: transparent;
+  margin: 2rem 0;
 }
-
 a.link:hover {
   color: #0085ff;
   border: 1px solid #0085ff;
