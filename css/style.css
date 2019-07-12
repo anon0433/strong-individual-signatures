@@ -28,7 +28,7 @@
 }
 .link a:hover {
   color: #0085ff;
-  transition: color 0.4s;
-  transition: text-decoration 0.4s;
+  transition: color 0.5s;
+  transition: text-decoration 0.5s;
   text-decoration: underline;
 }
