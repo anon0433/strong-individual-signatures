@@ -18,6 +18,7 @@
   text-decoration: none;
 }
 .link a:hover {
-  color: blue;
+  color: #0085ff;
+  transition: color 0.5s;
   text-decoration: underline;
 }
