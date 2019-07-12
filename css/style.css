@@ -19,9 +19,11 @@
   text-align: left !important;
   list-style: none;
 }
-.link {
+.item {
   font-size: 22px;
   line-height: 3rem;
+}
+a.link {
   color: #000;
   text-decoration: none;
   border: 1px solid black;
@@ -29,7 +31,7 @@
   transition: 0.5s;
 }
 
-.link:hover {
+a.link:hover {
   color: #0085ff;
   border: 1px solid #0085ff;
 }
