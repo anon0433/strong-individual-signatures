@@ -25,10 +25,10 @@
 .link a {
   color: #000;
   text-decoration: none;
+  transition: color 0.5s;
+  transition: text-decoration 0.5s;
 }
 .link a:hover {
   color: #0085ff;
-  transition: color 0.5s;
-  transition: text-decoration 0.5s;
   text-decoration: underline;
 }
