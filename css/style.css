@@ -1,7 +1,8 @@
 /* Home page style */
 
 .main {
-  width: 1020px;
+  min-width: 450px;
+  max-width: 1220px;
   margin: 2rem auto;
   text-align: center;
 }
