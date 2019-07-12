@@ -1,13 +1,13 @@
 /* Home page style */
 
-.title, .subtitle, description {
+.title, .subtitle, .description {
   text-align: center;
 }
 .subtitle {
   font-size: 27px !important;
 }
 .description {
-  color: green;
+  color: #004723 !important;
 }
 .link {
   font-size: 22px;
