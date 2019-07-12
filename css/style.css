@@ -17,17 +17,19 @@
 }
 .menu {
   text-align: left !important;
+  list-style: none;
 }
 .link {
   font-size: 22px;
   line-height: 3rem;
-}
-.link a {
   color: #000;
   text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
   transition: 0.5s;
 }
-.link a:hover {
+
+.link:hover {
   color: #0085ff;
-  text-decoration: underline;
+  border: 1px solid #0085ff;
 }
