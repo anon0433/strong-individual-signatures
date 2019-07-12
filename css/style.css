@@ -6,6 +6,9 @@
 .subtitle {
   font-size: 27px !important;
 }
+.description {
+  color: green;
+}
 .link {
   font-size: 22px;
   line-height: 3rem;
