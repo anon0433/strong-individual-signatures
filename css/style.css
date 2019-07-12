@@ -22,6 +22,7 @@
 .item {
   font-size: 22px;
   line-height: 3rem;
+  background: transparent;
 }
 a.link {
   color: #000;
@@ -35,4 +36,5 @@ a.link {
 a.link:hover {
   color: #0085ff;
   border: 1px solid #0085ff;
+  background: transparent;
 }
