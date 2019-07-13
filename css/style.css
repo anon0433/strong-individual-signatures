@@ -6,6 +6,19 @@
   margin: 2rem auto;
   text-align: center;
 }
+.main-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: start;
+}
+.title-txt {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 1rem; 
+}
 .title, .subtitle, .description {
   text-align: center;
 }
