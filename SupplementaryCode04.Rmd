@@ -2480,9 +2480,9 @@ ggplot(data = var_type_df, aes(fct_rev(var_type))) +
   coord_flip() +
   xlab("Feature Type") + ylab("Number of Features Among the Top 40 \n Most Important Variables") + 
   guides(fill = FALSE) +
-  theme_bw() + theme(legend.position = "top", legend.text = element_text(size = 9), axis.text = element_text(size = 10), axis.title = element_text(size = 14), strip.text = element_text(size = 14, face = "bold"))
+  theme_bw() + theme(legend.position = "top", legend.text = element_text(size = 10), axis.text = element_text(size = 8), axis.title = element_text(size = 10), strip.text = element_text(size = 10, face = "bold"))
   
-# ggsave(file.path(path, "SuppFig3_ParameterTypes_2spp.jpeg"), units = "in", width = 7.48, height = 5.29, dpi = 300)
+ggsave(file.path(path, "SupplementaryFigure3_RFVarImp_2spp.jpeg"), units = "in", width = 5, height = 4.5, dpi = 300)
   
 ```
 

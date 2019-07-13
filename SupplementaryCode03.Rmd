@@ -780,7 +780,7 @@ ggplot(corr_df, aes(x = distance, y = corr)) +
   
   geom_hline(yintercept = 0, linetype = "dotted", size = 0.5) +
   
-  geom_point(aes(color = sig_cat, fill = sig_cat), size = 2.5, shape = 21) +
+  geom_point(aes(color = sig_cat, fill = sig_cat), size = 1.75, shape = 21) +
   
   # scale_color_manual(values = c(alpha("darkblue", 0.6), gray.colors(12)[6], "red"), labels = c("Lower", expression("p "*">"*" 0.05"), "Higher")) +
 
@@ -794,13 +794,13 @@ ggplot(corr_df, aes(x = distance, y = corr)) +
 
   theme_bw() +
   
-  theme(panel.background = element_rect(color = "white", fill = "white"), panel.grid.major.x = element_line(size = 0.1, color = "black"), axis.line = element_line(color = "black", size = 0.35), axis.text.x = element_text(size = 8, angle = 0, face = "bold"), axis.title = element_text(size = 12), axis.ticks = element_line(size = 0.15), legend.text = element_text(hjust = 0, size = 12), legend.title = element_text(hjust = 0, size = 12), panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank(), legend.position = "top", strip.text = element_text(size = 10)) +
+  theme(panel.background = element_rect(color = "white", fill = "white"), panel.grid.major.x = element_line(size = 0.1, color = "black"), axis.line = element_line(color = "black", size = 0.35), axis.text.x = element_text(size = 6, angle = 0, face = "bold"), axis.title = element_text(size = 10), axis.ticks = element_line(size = 0.15), legend.text = element_text(hjust = 0, size = 10), legend.title = element_text(hjust = 0, size = 10), panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank(), legend.position = "top", strip.text = element_text(size = 10)) +
   
   xlab("Pairwise Geographic Distance (km)") + ylab("Mantel Spatial Correlation of Acoustic Similarity") + 
   
   guides(fill = guide_legend(title = "Spatial Correlation Values"), color = guide_legend(title = "Spatial Correlation Values"))
 
-# ggsave("Mantel_correlogram.jpeg", width = 7.48, height = 5.29, units = "in", dpi = 300)
+ggsave(file.path(path, "Figure4_Mantel_correlogram.jpeg"), width = 5.00, height = 4.5, units = "in", dpi = 300)
 
 ```
 
