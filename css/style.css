@@ -37,6 +37,7 @@ a button.link {
   font-size: 20px;
   text-decoration: none;
   border: 1px solid black;
+  border-radius: 5px;
   padding: 0.5rem 1rem;
   transition: 0.5s;
   background: transparent;
