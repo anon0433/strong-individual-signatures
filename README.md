@@ -1,4 +1,5 @@
-# Strong Individual Signatures ## Behavioral Ecology Submission 2019
+# Strong Individual Signatures 
+### Behavioral Ecology Submission 2019
 
 Supplementary Code for Double-Blind Review
 
