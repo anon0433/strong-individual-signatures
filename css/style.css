@@ -50,12 +50,14 @@ a button.link:hover {
   cursor: pointer;
 }
 
-a .repo {
+a span.repo {
   color: #000;
+  font-size: 18px;
   text-decoration: none;
 }
 
-a. .repo:hover {
+a span.repo:hover {
   text-decoration: underline;
   color: darkblue;
+  font-size: 20px;
 }
