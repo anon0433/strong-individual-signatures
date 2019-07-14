@@ -61,3 +61,10 @@ a span.repo:hover {
   color: darkblue;
   font-size: 20px;
 }
+
+.main {
+  min-width: 450px;
+  max-width: 1220px;
+  margin: 2rem auto;
+  text-align: left;
+}
