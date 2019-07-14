@@ -49,3 +49,13 @@ a button.link:hover {
   background: transparent;
   cursor: pointer;
 }
+
+a .repo {
+  color: #000;
+  text-decoration: none;
+}
+
+a. .repo:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
