@@ -935,7 +935,7 @@ range(Colonia$SNR)
 
 ```
 
-Check out Supplementary Methods 2 for sound analysis. 
+Check out Supplementary Methods 2 for sound analysis. The extended selection tables for the individual and higher social scales contain the selected contact calls used for analyses throughout Supplementary Methods 2 - 5. Analyses can be reproduced using calls in extended selection tables, with minimal changes to the code provided. Using calls from the extended selection tables may yield some variation in parameter measurements, but this should not affect overall results.   
 
 # References
 
